@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.signup-container {
+  display: flex;
+  height: 100vh;
+  background: #f7f9fc;
+  justify-content: center;
+}
+
+/* Left */
+.left-section {
+  flex: 1;
+   
+  background-image: url("https://img.freepik.com/premium-photo/modern-stylish-plant-image-set-against-white-background_1110958-30903.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.quote-box {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+}
+
+.quote {
+  font-size: 20px;
+  color: #333;
+}
+
+.quote span {
+  color: #2563eb;
+  font-weight: 600;
+}
+
+.author {
+  margin-top: 8px;
+  color: #555;
+}
+
+.plant-img {
+  width: 260px;
+  margin-top: 100px;
+}
+
+/* Right */
+.right-section {
+
+   flex: 1;
+
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 80px;
+}
+
+.right-section h2 {
+  margin-bottom: 25px;
+}
+
+.right-section input {
+  margin-bottom: 15px;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.signup-btn {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.or {
+  text-align: center;
+  margin: 20px 0;
+  color: #999;
+}
+
+.social-btns {
+  display: flex;
+  gap: 15px;
+}
+
+.social-btns button {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  background: #fff;
+  cursor: pointer;
+}
+
+.login-text {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.login-text span {
+  color: #2563eb;
+  cursor: pointer;
+}
